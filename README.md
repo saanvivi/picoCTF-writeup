@@ -72,7 +72,7 @@ The flag is `picoCTF{FR3QU3NCY_4774CK5_4R3_C001_7AA384BC}`
 ### Description:
 > What if d is too small? Connect with nc mercury.picoctf.net 37455.
 
-First i found that when d is small, Wiener attacks work when d is small. <br>
+First i found that Wiener attacks work when d is small. <br>
 i used `nc mercury.picoctf.net 37455` and got the values as shown
 ~~~
 Welcome to my RSA challenge!
@@ -93,7 +93,7 @@ if d is None:
 else:
     print("Hacked d={}".format(d))
 ~~~
-d=35238064561695282799647947362811227714296700106386796052429037996303465227161
-Thus, n,e,d and c are all known. I put these values in [dcode](https://www.dcode.fr/rsa-cipher) and got the flag
+d=35238064561695282799647947362811227714296700106386796052429037996303465227161 <br>
+Thus n, e, d and c are all known. I put these values in [dcode](https://www.dcode.fr/rsa-cipher) and got the flag
 
 The flag is `picoCTF{proving_wiener_3878674}`
